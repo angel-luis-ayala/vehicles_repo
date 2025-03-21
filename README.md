@@ -11,3 +11,18 @@ Si se marca la casilla del histograma la aplicación generará un gráfico inter
 Si se marca la casilla del gráfico de dispersión la aplicación generará un gráfico interactivo sobre la correlación entre el precio de los vehículos y su kilometraje.
 
 Se utilizaron las siguientes librerías: pandas, streamlit y plotly.express.
+
+
+
+Nota:
+Se omitió el siguiente paso debido a que nuestros tutores mencionaron que hacerlo daría un error:
+
+"Para hacer que Streamlit sea compatible con Render, añade un archivo de configuración de Streamlit al repositorio de tu proyecto en streamlit/config.toml con el siguiente contenido:
+[server]
+headless = true
+port = 10000
+
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 10000
+Le dirá a Render que busque en el sitio correcto para escuchar tu aplicación de Streamlit cuando la aloje en sus servidores."
