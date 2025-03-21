@@ -10,4 +10,4 @@ Si se marca la casilla del histograma la aplicación generará un gráfico inter
 
 Si se marca la casilla del gráfico de dispersión la aplicación generará un gráfico interactivo sobre la correlación entre el precio de los vehículos y su kilometraje.
 
-Se utilizaron las siguientes librerías: pandas, streamlit y plotly.express
+Se utilizaron las siguientes librerías: pandas, streamlit y plotly.express.
