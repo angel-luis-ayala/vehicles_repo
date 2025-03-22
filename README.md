@@ -26,3 +26,6 @@ port = 10000
 serverAddress = "0.0.0.0"
 serverPort = 10000
 Le dirá a Render que busque en el sitio correcto para escuchar tu aplicación de Streamlit cuando la aloje en sus servidores."
+
+URL de la aplicación en render:
+https://vehicles-web-service.onrender.com
